@@ -1,3 +1,9 @@
 body {
   background: #fff;
   font-family: "Dosis", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
