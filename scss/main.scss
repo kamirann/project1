@@ -4,7 +4,7 @@
 header {
   background: url("../img/showcase.jpg") no-repeat center center/cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: 93vh;
   position: relative;
 
   nav a {
@@ -43,25 +43,24 @@ header {
   }
 
   .hero {
-    padding-top: 7rem;
+    padding-top: 7.5rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
     .content {
-      width: 50%;
-
       h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         padding: 1.25rem 0;
         color: $primary-color;
       }
 
       p {
         color: #fff;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         align-items: center;
         justify-content: center;
         text-align: start;
+        width: 80%;
       }
     }
 
@@ -83,10 +82,5 @@ header {
   }
   & * {
     z-index: 2;
-  }
-  p.lead {
-    color: #fff;
-    font-size: 3rem;
-    text-align: flex-start;
   }
 }
