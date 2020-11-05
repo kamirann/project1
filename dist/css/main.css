@@ -75,11 +75,7 @@ li a:not(.current):hover {
 header {
   background: url("../img/showcase.jpg") no-repeat center center/cover;
   background-attachment: fixed;
-<<<<<<< HEAD
   height: 94vh;
-=======
-  height: 93vh;
->>>>>>> 28ed184aa803f5ee0163b71e15b763f3389a44f3
   position: relative; }
   header nav a {
     height: 100%; }
@@ -110,28 +106,16 @@ header {
     grid-template-columns: repeat(2, 1fr); }
     header .hero .content h1 {
       font-size: 3.5rem;
-<<<<<<< HEAD
       padding-bottom: 1.25rem;
       color: #e47106; }
     header .hero .content p {
       padding-bottom: 1.25rem;
-      color: #fff;
-      font-size: 1.5rem;
-      align-items: center;
-      justify-content: center;
-      text-align: start;
-      width: 60%; }
-=======
-      padding: 1.25rem 0;
-      color: #e47106; }
-    header .hero .content p {
       color: #fff;
       font-size: 1.2rem;
       align-items: center;
       justify-content: center;
       text-align: start;
-      width: 80%; }
->>>>>>> 28ed184aa803f5ee0163b71e15b763f3389a44f3
+      width: 60%; }
     header .hero .img {
       background: url("../img/showcase.jpg") no-repeat center center/cover;
       height: 400px;
