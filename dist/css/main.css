@@ -75,7 +75,7 @@ li a:not(.current):hover {
 header {
   background: url("../img/showcase.jpg") no-repeat center center/cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: 94vh;
   position: relative; }
   header nav a {
     height: 100%; }
@@ -101,21 +101,21 @@ header {
         font-size: 0.7rem;
         padding: 0.5rem; }
   header .hero {
-    padding-top: 7rem;
+    padding-top: 7.5rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
-    header .hero .content {
-      width: 50%; }
-      header .hero .content h1 {
-        font-size: 4rem;
-        padding: 1.25rem 0;
-        color: #e47106; }
-      header .hero .content p {
-        color: #fff;
-        font-size: 1.5rem;
-        align-items: center;
-        justify-content: center;
-        text-align: start; }
+    header .hero .content h1 {
+      font-size: 3.5rem;
+      padding-bottom: 1.25rem;
+      color: #e47106; }
+    header .hero .content p {
+      padding-bottom: 1.25rem;
+      color: #fff;
+      font-size: 1.5rem;
+      align-items: center;
+      justify-content: center;
+      text-align: start;
+      width: 60%; }
     header .hero .img {
       background: url("../img/showcase.jpg") no-repeat center center/cover;
       height: 400px;
@@ -130,7 +130,3 @@ header {
     width: 100%; }
   header * {
     z-index: 2; }
-  header p.lead {
-    color: #fff;
-    font-size: 3rem;
-    text-align: flex-start; }
