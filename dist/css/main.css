@@ -3,9 +3,6 @@
   padding: 0; }
 
 body {
-<<<<<<< HEAD
-  background: #fff; }
-=======
   background: #fff;
   font-family: "Dosis", sans-serif;
   line-height: 1.6; }
@@ -116,4 +113,3 @@ header {
     color: #fff;
     font-size: 3rem;
     text-align: flex-start; }
->>>>>>> 09518d743f4da4582ab7ff5ff0c08749c724876e
