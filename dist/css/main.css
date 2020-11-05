@@ -101,14 +101,12 @@ header {
         font-size: 0.7rem;
         padding: 0.5rem; }
   header .hero {
+    padding-top: 7rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; }
     header .hero .content {
-      position: absolute;
-      top: 300px;
-      left: 230px;
-      height: 650;
-      width: 450px; }
+      width: 50%; }
       header .hero .content h1 {
         font-size: 4rem;
         padding: 1.25rem 0;
