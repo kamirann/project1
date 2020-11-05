@@ -120,7 +120,8 @@ header {
         justify-content: center;
         text-align: start; }
     header .hero .img {
-      background: url("../img/showcase.jpg") no-repeat center center/cover; }
+      background: url("../img/showcase.jpg") no-repeat center center/cover;
+      height: 400px; }
   header:before {
     content: "";
     background: rgba(0, 0, 0, 0.9);
