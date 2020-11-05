@@ -46,7 +46,6 @@ header {
     padding-top: 7rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100%;
 
     .content {
       width: 50%;
@@ -69,6 +68,7 @@ header {
     .img {
       background: url("../img/showcase.jpg") no-repeat center center/cover;
       height: 400px;
+      width: 100%;
     }
   }
 
