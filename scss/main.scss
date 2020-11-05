@@ -21,6 +21,11 @@ header {
         font-size: 1.7rem;
         padding: 0.5rem;
         letter-spacing: 0.2rem;
+        transition: all 0.5s;
+
+        &:hover {
+          letter-spacing: 0.3rem;
+        }
       }
 
       div {
