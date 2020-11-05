@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fff;
+  font-family: "Dosis", sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 1280px;
+  overflow: hidden;
+  padding: 0 3rem;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  height: 90px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-top: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+li a {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+img {
+  width: 100%;
+}

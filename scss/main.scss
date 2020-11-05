@@ -1,3 +1,81 @@
-body {
-  background: blue;
+@import "config";
+@import "utils";
+
+header {
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+
+  nav a {
+    height: 100%;
+
+    div {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+
+      .logo {
+        font-weight: bold;
+        font-size: 1.7rem;
+        padding: 0.5rem;
+        letter-spacing: 0.2rem;
+      }
+
+      div {
+        height: 30%;
+        margin: 0.5rem;
+        background: #fff;
+        width: 1px;
+      }
+
+      p:last-child {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  .img {
+    position: absolute;
+    background: #fff;
+    top: 120px;
+    right: 200px;
+    height: 650px;
+    width: 500px;
+    background: url("../img/showcase.jpg") no-repeat center center/cover;
+  }
+  .content {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    height: 650;
+    width: 500px;
+
+    p {
+      color: #fff;
+      font-size: 2rem;
+      text-align: flex-start;
+      justify-content: center;
+    }
+  }
+
+  &:before {
+    content: "";
+    background: rgba($color: #000000, $alpha: 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  & * {
+    z-index: 2;
+  }
+  p.lead {
+    color: #fff;
+    font-size: 3rem;
+    text-align: flex-start;
+  }
 }

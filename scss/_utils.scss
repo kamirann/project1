@@ -1,0 +1,26 @@
+$secondary-color: rgb(228, 113, 6);
+
+.current {
+  border-bottom: $secondary-color 2px solid;
+}
+
+%shared-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn {
+  &-dark {
+    @extend %shared-btn;
+    color: #333;
+    background-color: #fff;
+    &:hover {
+      background: $secondary-color;
+      color: #fff;
+    }
+  }
+}

@@ -7,7 +7,9 @@
     "node-sass": "^5.0.0",
     "sass": "^1.28.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-ruby-sass": "^4.0.0"
+  },
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },

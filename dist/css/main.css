@@ -1,2 +1,119 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
+<<<<<<< HEAD
   background: #fff; }
+=======
+  background: #fff;
+  font-family: "Dosis", sans-serif;
+  line-height: 1.6; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+.container {
+  max-width: 1280px;
+  overflow: hidden;
+  padding: 0 3rem;
+  margin: auto; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  height: 90px; }
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-top: 0.5rem;
+  align-items: center;
+  justify-content: center; }
+
+li a {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem; }
+
+img {
+  width: 100%; }
+
+.current {
+  border-bottom: #e47106 2px solid; }
+
+.btn-dark {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 1rem; }
+
+.btn-dark {
+  color: #333;
+  background-color: #fff; }
+  .btn-dark:hover {
+    background: #e47106;
+    color: #fff; }
+
+header {
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative; }
+  header nav a {
+    height: 100%; }
+    header nav a div {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center; }
+      header nav a div .logo {
+        font-weight: bold;
+        font-size: 1.7rem;
+        padding: 0.5rem;
+        letter-spacing: 0.2rem; }
+      header nav a div div {
+        height: 30%;
+        margin: 0.5rem;
+        background: #fff;
+        width: 1px; }
+      header nav a div p:last-child {
+        font-size: 0.7rem;
+        padding: 0.5rem; }
+  header .img {
+    position: absolute;
+    background: #fff;
+    top: 120px;
+    right: 200px;
+    height: 650px;
+    width: 500px;
+    background: url("../img/showcase.jpg") no-repeat center center/cover; }
+  header .content {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    height: 650;
+    width: 500px; }
+    header .content p {
+      color: #fff;
+      font-size: 2rem;
+      text-align: flex-start;
+      justify-content: center; }
+  header:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  header * {
+    z-index: 2; }
+  header p.lead {
+    color: #fff;
+    font-size: 3rem;
+    text-align: flex-start; }
+>>>>>>> 09518d743f4da4582ab7ff5ff0c08749c724876e
