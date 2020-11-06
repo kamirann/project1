@@ -51,9 +51,9 @@ li a:not(.current):hover {
 
 .btn-dark {
   color: #333;
-  background-color: #fff; }
+  background-color: transparent; }
   .btn-dark:hover {
-    background: #e47106;
+    border-color: #e47106;
     color: #fff; }
 
 .py-1 {
@@ -134,7 +134,8 @@ header {
       width: 100%; }
     header .hero a {
       background: transparent;
-      color: #fff; }
+      color: #fff;
+      border: 1px solid #fff !important; }
   header:before {
     content: "";
     background: rgba(0, 0, 0, 0.9);
