@@ -51,7 +51,7 @@ li a:not(.current):hover {
 
 .btn-dark {
   color: #333;
-  background-color: #fff; }
+  background-color: transparent; }
   .btn-dark:hover {
     border-color: #f57948;
     color: #fff; }

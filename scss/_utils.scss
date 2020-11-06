@@ -23,7 +23,7 @@ li a:not(.current):hover {
   &-dark {
     @extend %shared-btn;
     color: #333;
-    background-color: #fff;
+    background-color: transparent;
     &:hover {
       border-color: $primary-color;
       color: #fff;
