@@ -1,4 +1,4 @@
-$primary-color: rgb(228, 113, 6);
+$primary-color: rgb(245, 121, 72);
 
 .current {
   border-bottom: $primary-color 2px solid;
@@ -25,7 +25,7 @@ li a:not(.current):hover {
     color: #333;
     background-color: #fff;
     &:hover {
-      background: $primary-color;
+      border-color: $primary-color;
       color: #fff;
     }
   }
@@ -62,5 +62,5 @@ li a:not(.current):hover {
 
 .top-content {
   text-align: center;
-  padding: 0 0.75rem 1rem;
+  padding: 0 0.75rem 1rem 1rem;
 }
