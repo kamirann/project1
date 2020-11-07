@@ -3,7 +3,8 @@
   padding: 0; }
 
 body {
-  background: #fff;
+  height: 1000px;
+  background: #b6e7eb;
   font-family: "Dosis", sans-serif;
   line-height: 1.6; }
 
@@ -87,7 +88,7 @@ li a:not(.current):hover {
 header {
   background: url("../img/showcase.jpg") no-repeat center center/cover;
   background-attachment: fixed;
-  height: 94vh;
+  height: 100vh;
   position: relative; }
   header nav a {
     height: 100%; }
@@ -113,7 +114,7 @@ header {
         font-size: 0.7rem;
         padding: 0.5rem; }
   header .hero {
-    padding-top: 7.5rem;
+    padding-top: 8.25rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
     header .hero .content h1 {
