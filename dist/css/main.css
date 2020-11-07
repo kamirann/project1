@@ -5,8 +5,7 @@
 
 body {
   height: 1000px;
-  background: url("../dist/img/background.png") center center/cover;
-  height: 1000px;
+  background: #fff;
   font-family: "Dosis", sans-serif;
   line-height: 1.6; }
 
@@ -69,7 +68,7 @@ li a:not(.current):hover {
   padding: 3.75rem 0; }
 
 .l-size {
-  font-size: 4rem;
+  font-size: 8.5rem;
   padding-bottom: 1rem; }
 
 .lead {
@@ -82,10 +81,6 @@ li a:not(.current):hover {
 
 .text-center {
   text-align: center; }
-
-.top-content {
-  text-align: center;
-  padding: 0 0.75rem 1rem 1rem; }
 
 header {
   background: url("../img/showcase.jpg") no-repeat center center/cover;
@@ -149,3 +144,34 @@ header {
     width: 100%; }
   header * {
     z-index: 2; }
+
+#services {
+  background: url("../img/background.png") center center/cover;
+  height: 100%; }
+  #services .content {
+    padding: 3rem 0 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr; }
+  #services h1 {
+    text-transform: uppercase; }
+  #services p.lead {
+    transform: rotate(-90deg);
+    transition: all 0.5s;
+    margin-top: 15rem;
+    text-align: center; }
+    #services p.lead:hover {
+      transform: rotate(360deg);
+      text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5); }
+  #services .services-content {
+    display: flex;
+    flex-direction: column; }
+    #services .services-content .single-service {
+      margin: 2rem 0; }
+      #services .services-content .single-service img {
+        border-radius: 50px; }
+      #services .services-content .single-service p {
+        width: 30%;
+        color: #fff;
+        text-align: center; }
+    #services .services-content .single-service:nth-child(2) {
+      transform: translate(500px); }

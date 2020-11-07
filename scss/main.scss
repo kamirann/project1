@@ -91,3 +91,53 @@ header {
     z-index: 2;
   }
 }
+
+#services {
+  background: url("../img/background.png") center center/cover;
+  height: 100%;
+
+  .content {
+    padding: 3rem 0 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  p.lead {
+    transform: rotate(-90deg);
+    transition: all 0.5s;
+    margin-top: 15rem;
+    text-align: center;
+
+    &:hover {
+      transform: rotate(360deg);
+      text-shadow: 5px 5px 15px rgba(#fff, $alpha: 0.5);
+    }
+  }
+
+  .services-content {
+    display: flex;
+    flex-direction: column;
+
+    .single-service {
+      margin: 2rem 0;
+
+      img {
+        border-radius: 50px;
+      }
+
+      p {
+        width: 30%;
+        color: #fff;
+        text-align: center;
+      }
+    }
+
+    .single-service:nth-child(2) {
+      transform: translate(500px);
+    }
+  }
+}
