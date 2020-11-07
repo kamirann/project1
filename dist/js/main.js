@@ -1,0 +1,1 @@
+const serviceContent = document.querySelector(".service-content");

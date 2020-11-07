@@ -93,8 +93,12 @@ header {
 }
 
 #services {
-  background: url("../img/background.png") center center/cover;
-  height: 100%;
+  background: url("../img/background.png") center center / cover;
+  height: 300vh;
+
+  .container {
+    border-right: 2px solid #333;
+  }
 
   .content {
     padding: 3rem 0 1rem;
@@ -121,12 +125,13 @@ header {
   .services-content {
     display: flex;
     flex-direction: column;
+    margin-top: 6.5rem;
 
     .single-service {
-      margin: 2rem 0;
+      margin: 1.5rem 0;
 
-      img {
-        border-radius: 50px;
+      .img {
+        border-radius: 40px;
       }
 
       p {
@@ -137,7 +142,11 @@ header {
     }
 
     .single-service:nth-child(2) {
-      transform: translate(500px);
+      transform: translate(605px);
+      margin-top: -200px;
+    }
+    .single-service:nth-child(3) {
+      margin-top: -165px;
     }
   }
 }
