@@ -168,11 +168,20 @@ header {
     display: flex;
     flex-direction: column;
     margin-top: 6.5rem; }
-    #services .services-content .single-service {
-      margin: 1.5rem 0; }
-      #services .services-content .single-service .img {
+    #services .services-content div.single-service img,
+    #services .services-content div.single-service p {
+      transition: all 0.5s;
+      visibility: hidden;
+      opacity: 0; }
+    #services .services-content div.single-service {
+      margin-top: 1.5rem; }
+      #services .services-content div.single-service.show img,
+      #services .services-content div.single-service.show p {
+        visibility: visible;
+        opacity: 1; }
+      #services .services-content div.single-service .img {
         border-radius: 40px; }
-      #services .services-content .single-service p {
+      #services .services-content div.single-service p {
         width: 30%;
         color: #fff;
         text-align: center; }

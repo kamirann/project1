@@ -127,8 +127,21 @@ header {
     flex-direction: column;
     margin-top: 6.5rem;
 
-    .single-service {
-      margin: 1.5rem 0;
+    div.single-service img,
+    div.single-service p {
+      transition: all 0.5s;
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    div.single-service {
+      margin-top: 1.5rem;
+
+      &.show img,
+      &.show p {
+        visibility: visible;
+        opacity: 1;
+      }
 
       .img {
         border-radius: 40px;
