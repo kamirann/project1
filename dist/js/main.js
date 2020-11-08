@@ -1,4 +1,4 @@
-const serviceContent = document.querySelector("div.single-service");
+const serviceContent = document.querySelectorAll("div.single-service");
 
 const isInViewPort = (el) => {
   const rect = el.getBoundingClientRect();

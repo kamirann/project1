@@ -149,44 +149,68 @@ header {
   background: url("../img/background.png") center center/cover;
   height: 300vh; }
   #services .container {
-    border-right: 2px solid #333; }
+    border-right: 2px solid #f57948; }
   #services .content {
     padding: 3rem 0 1rem;
     display: grid;
     grid-template-columns: 2fr 1fr; }
   #services h1 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    transition: all 0.8s;
+    background: transparent;
+    background-attachment: fixed; }
+    #services h1:hover {
+      transform: rotate3d(0, 1, 0.5, 6.284rad); }
   #services p.lead {
     transform: rotate(-90deg);
     transition: all 0.5s;
     margin-top: 15rem;
     text-align: center; }
     #services p.lead:hover {
-      transform: rotate(360deg);
+      transform: rotate(360deg) scale(1.35);
       text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5); }
   #services .services-content {
     display: flex;
     flex-direction: column;
     margin-top: 6.5rem; }
     #services .services-content div.single-service img,
-    #services .services-content div.single-service p {
-      transition: all 0.5s;
+    #services .services-content div.single-service p,
+    #services .services-content div.single-service h1 {
+      transition: all 1s ease-in-out;
       visibility: hidden;
       opacity: 0; }
     #services .services-content div.single-service {
+      display: flex;
+      flex-direction: column;
+      position: relative;
       margin-top: 1.5rem; }
       #services .services-content div.single-service.show img,
-      #services .services-content div.single-service.show p {
+      #services .services-content div.single-service.show p,
+      #services .services-content div.single-service.show h1 {
+        transform: none;
         visibility: visible;
         opacity: 1; }
       #services .services-content div.single-service .img {
-        border-radius: 40px; }
-      #services .services-content div.single-service p {
+        border-radius: 40px;
+        z-index: 1; }
+        #services .services-content div.single-service .img:hover {
+          transform: translate(170px) rotate3d(0, 1, 0, 1.57rad); }
+      #services .services-content div.single-service p,
+      #services .services-content div.single-service h1 {
+        position: absolute;
+        top: 40%;
+        left: 40px;
         width: 30%;
         color: #fff;
-        text-align: center; }
+        text-align: center;
+        opacity: 0;
+        visibility: hidden; }
+      #services .services-content div.single-service h1 {
+        top: 25%;
+        left: 40px;
+        color: #f57948; }
     #services .services-content .single-service:nth-child(2) {
       transform: translate(605px);
-      margin-top: -200px; }
+      margin-top: -175px; }
     #services .services-content .single-service:nth-child(3) {
-      margin-top: -165px; }
+      margin-top: -85px; }
