@@ -267,13 +267,6 @@ header * {
   left: 40px;
   color: #f57948;
 }
-#services .services-content .single-service:nth-child(2) {
-  transform: translate(605px);
-  margin-top: -175px;
-}
-#services .services-content .single-service:nth-child(3) {
-  margin-top: -85px;
-}
 
 #gallery {
   background: #111;
