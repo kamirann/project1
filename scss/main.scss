@@ -94,7 +94,11 @@ header {
 
 // SERVICES
 #services {
+<<<<<<< HEAD
   background: #111;
+=======
+  // background: #111;
+>>>>>>> parent of 6653407... commit
 
   .container {
     border-right: 2px solid $primary-color;
@@ -106,6 +110,10 @@ header {
     grid-template-columns: repeat(2, 1fr);
 
     h1 {
+<<<<<<< HEAD
+=======
+      color: #fff;
+>>>>>>> parent of 6653407... commit
       text-transform: uppercase;
       background: transparent;
       width: 50%;
