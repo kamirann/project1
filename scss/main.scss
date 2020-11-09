@@ -105,24 +105,24 @@ header {
     padding: 3rem 0 1rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
-  }
 
-  h1 {
-    text-transform: uppercase;
-    background: transparent;
-    width: 50%;
-    // background-attachment: fixed;
-  }
+    h1 {
+      text-transform: uppercase;
+      background: transparent;
+      width: 50%;
+      // background-attachment: fixed;
+    }
 
-  p.lead {
-    transform: rotate(-90deg);
-    transition: all 0.5s;
-    margin-top: 10rem;
-    text-align: center;
+    p.lead {
+      transform: rotate(-90deg);
+      transition: all 0.5s;
+      margin-top: 10rem;
+      text-align: center;
 
-    &:hover {
-      transform: rotate(360deg) scale(1.35);
-      text-shadow: 5px 5px 15px rgba(#fff, $alpha: 0.5);
+      &:hover {
+        transform: rotate(360deg) scale(1.35);
+        text-shadow: 5px 5px 15px rgba(#fff, $alpha: 0.5);
+      }
     }
   }
 
@@ -194,7 +194,7 @@ header {
 
 // GALLERY
 #gallery {
-  background: #403c3c;
+  background: #222222;
 
   .container {
     position: relative;
