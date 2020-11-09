@@ -59,13 +59,13 @@ li a:not(.current):hover {
     color: #fff; }
 
 .py-1 {
-  padding: 1.25rem 0; }
+  padding: 1.5rem 0; }
 
 .py-2 {
-  padding: 2.5rem 0; }
+  padding: 3.5rem 0; }
 
 .py-3 {
-  padding: 3.75rem 0; }
+  padding: 5.5rem 0; }
 
 .l-size {
   font-size: 5.5rem;
@@ -152,7 +152,7 @@ header {
   #services .content {
     padding: 3rem 0 1rem;
     display: grid;
-    grid-template-columns: 2fr 1fr; }
+    grid-template-columns: repeat(2, 1fr); }
     #services .content h1 {
       text-transform: uppercase;
       background: transparent;
@@ -210,7 +210,7 @@ header {
   background: #111; }
   #gallery .container {
     position: relative;
-    box-shadow: 150px 0 300px #fff, -150px 0 300px #fff; }
+    box-shadow: 50px 0 100px #fff, -50px 0 100px #fff; }
   #gallery .overlay {
     display: flex;
     flex-direction: column;
@@ -219,7 +219,6 @@ header {
     align-items: center;
     height: 170vh;
     z-index: 2;
-    box-shadow: inset 50px 0 300px #fff, inset -50px 0 300px #fff, 50px 0 300px #fff, -50px 0 300px #fff;
     transition: all 1s ease-in-out; }
     #gallery .overlay:hover {
       transform: translate(605px) rotate3d(0, 1, 0.05, 1.57rad); }
