@@ -210,9 +210,10 @@ header {
       transform: translate(605px) rotate3d(0, 1, 0.05, 1.57rad);
     }
 
-    &:hover .gallery-content {
+    &:hover .gallery-content div {
       opacity: 1;
       visibility: visible;
+      background: red;
     }
 
     h1 {

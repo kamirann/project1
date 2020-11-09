@@ -222,9 +222,10 @@ header {
     transition: all 1s ease-in-out; }
     #gallery .overlay:hover {
       transform: translate(605px) rotate3d(0, 1, 0.05, 1.57rad); }
-    #gallery .overlay:hover .gallery-content {
+    #gallery .overlay:hover .gallery-content div {
       opacity: 1;
-      visibility: visible; }
+      visibility: visible;
+      background: red; }
     #gallery .overlay h1 {
       font-size: 16rem;
       text-transform: uppercase; }
