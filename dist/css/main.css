@@ -224,7 +224,7 @@ header {
     align-items: center;
     height: 170vh;
     z-index: 2;
-    box-shadow: inset 50px 0 300px #fff, inset -50px 0 300px #fff, 50px 0 300px #fff, -50px 0 300px #fff;
+    box-shadow: inset 50px 0 300px #fff, inset -50px 0 300px #fff, 50px 0 300px #fff, -50px 0 300px #fff;
     transition: all 1s ease-in-out; }
     #gallery .overlay:hover {
       transform: translate(605px) rotate3d(0, 1, 0.05, 1.57rad); }
