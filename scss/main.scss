@@ -94,8 +94,7 @@ header {
 
 // SERVICES
 #services {
-  background: #fff;
-  height: 2250px;
+  background: #111;
 
   .container {
     border-right: 2px solid $primary-color;
@@ -120,7 +119,7 @@ header {
       text-align: center;
 
       &:hover {
-        transform: rotate(360deg) scale(1.35);
+        transform: rotate(60deg) scale(1.35);
         text-shadow: 5px 5px 15px rgba(#fff, $alpha: 0.5);
       }
     }
@@ -181,14 +180,9 @@ header {
       }
     }
 
-    .single-service:nth-child(2) {
-      transform: translate(605px);
-      margin-top: -175px;
-    }
-
-    .single-service:nth-child(3) {
-      margin-top: -85px;
-    }
+    // .single-service:nth-child(3) {
+    //   margin-top: -85px;
+    // }
   }
 }
 
