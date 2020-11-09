@@ -146,8 +146,7 @@ header {
     z-index: 2; }
 
 #services {
-  background: url("../img/background.png") center 90%/cover;
-  height: 2250px; }
+  background: #111; }
   #services .container {
     border-right: 2px solid #f57948; }
   #services .content {
@@ -213,7 +212,7 @@ header {
       margin-top: -85px; }
 
 #gallery {
-  background: #222222; }
+  background: #111; }
   #gallery .container {
     position: relative;
     box-shadow: 150px 0 300px #fff, -150px 0 300px #fff; }

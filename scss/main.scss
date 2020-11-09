@@ -94,8 +94,7 @@ header {
 
 // SERVICES
 #services {
-  background: url("../img/background.png") center 90% / cover;
-  height: 2250px;
+  background: #111;
 
   .container {
     border-right: 2px solid $primary-color;
@@ -194,7 +193,7 @@ header {
 
 // GALLERY
 #gallery {
-  background: #222222;
+  background: #111;
 
   .container {
     position: relative;
