@@ -158,14 +158,14 @@ header {
       text-transform: uppercase;
       background: transparent;
       width: 50%; }
-  #services p.lead {
-    transform: rotate(-90deg);
-    transition: all 0.5s;
-    margin-top: 10rem;
-    text-align: center; }
-    #services p.lead:hover {
-      transform: rotate(360deg) scale(1.35);
-      text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5); }
+    #services .content p.lead {
+      transform: rotate(-90deg);
+      transition: all 0.5s;
+      margin-top: 10rem;
+      text-align: center; }
+      #services .content p.lead:hover {
+        transform: rotate(360deg) scale(1.35);
+        text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5); }
   #services .services-content {
     display: flex;
     flex-direction: column;
@@ -213,7 +213,7 @@ header {
       margin-top: -85px; }
 
 #gallery {
-  background: #403c3c; }
+  background: #222222; }
   #gallery .container {
     position: relative;
     box-shadow: 150px 0 300px #fff, -150px 0 300px #fff; }
