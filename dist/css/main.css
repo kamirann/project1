@@ -154,10 +154,10 @@ header {
     padding: 3rem 0 1rem;
     display: grid;
     grid-template-columns: 2fr 1fr; }
-  #services h1 {
-    text-transform: uppercase;
-    background: transparent;
-    width: 50%; }
+    #services .content h1 {
+      text-transform: uppercase;
+      background: transparent;
+      width: 50%; }
   #services p.lead {
     transform: rotate(-90deg);
     transition: all 0.5s;
@@ -225,7 +225,7 @@ header {
     align-items: center;
     height: 170vh;
     z-index: 2;
-    box-shadow: inset 50px 0 300px #fff, inset -50px 0 300px #fff, 50px 0 300px #fff, -50px 0 300px #fff;
+    box-shadow: inset 50px 0 300px #fff, inset -50px 0 300px #fff, 50px 0 300px #fff, -50px 0 300px #fff;
     transition: all 1s ease-in-out; }
     #gallery .overlay:hover {
       transform: translate(605px) rotate3d(0, 1, 0.05, 1.57rad); }

@@ -105,13 +105,12 @@ header {
     padding: 3rem 0 1rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
-  }
 
-  h1 {
-    text-transform: uppercase;
-    background: transparent;
-    width: 50%;
-    // background-attachment: fixed;
+    h1 {
+      text-transform: uppercase;
+      background: transparent;
+      width: 50%;
+    }
   }
 
   p.lead {
