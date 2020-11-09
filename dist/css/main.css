@@ -68,7 +68,7 @@ li a:not(.current):hover {
   padding: 3.75rem 0; }
 
 .l-size {
-  font-size: 8.5rem;
+  font-size: 5.5rem;
   padding-bottom: 1rem; }
 
 .lead {
@@ -99,9 +99,9 @@ header {
         font-size: 1.7rem;
         padding: 0.5rem;
         letter-spacing: 0.2rem;
-        transition: all 0.5s; }
+        transition: all 0.8s; }
         header nav a div .logo:hover {
-          letter-spacing: 0.3rem; }
+          transform: rotate3d(0, 1, 0.5, 6.284rad); }
       header nav a div div {
         height: 30%;
         margin: 0.5rem;
@@ -156,15 +156,12 @@ header {
     grid-template-columns: 2fr 1fr; }
   #services h1 {
     text-transform: uppercase;
-    transition: all 0.8s;
     background: transparent;
-    background-attachment: fixed; }
-    #services h1:hover {
-      transform: rotate3d(0, 1, 0.5, 6.284rad); }
+    width: 50%; }
   #services p.lead {
     transform: rotate(-90deg);
     transition: all 0.5s;
-    margin-top: 15rem;
+    margin-top: 10rem;
     text-align: center; }
     #services p.lead:hover {
       transform: rotate(360deg) scale(1.35);

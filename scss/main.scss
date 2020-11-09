@@ -21,10 +21,10 @@ header {
         font-size: 1.7rem;
         padding: 0.5rem;
         letter-spacing: 0.2rem;
-        transition: all 0.5s;
+        transition: all 0.8s;
 
         &:hover {
-          letter-spacing: 0.3rem;
+          transform: rotate3d(0, 1, 0.5, 6.284rad);
         }
       }
 
@@ -109,19 +109,15 @@ header {
 
   h1 {
     text-transform: uppercase;
-    transition: all 0.8s;
     background: transparent;
-    background-attachment: fixed;
-
-    &:hover {
-      transform: rotate3d(0, 1, 0.5, 6.284rad);
-    }
+    width: 50%;
+    // background-attachment: fixed;
   }
 
   p.lead {
     transform: rotate(-90deg);
     transition: all 0.5s;
-    margin-top: 15rem;
+    margin-top: 10rem;
     text-align: center;
 
     &:hover {
