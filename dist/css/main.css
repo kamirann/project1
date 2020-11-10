@@ -114,9 +114,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
     header .hero .content h1 {
-      font-size: 3.5rem;
-      padding-bottom: 1.25rem;
-      color: #7f38f1; }
+      padding-bottom: 1.25rem; }
     header .hero .content p {
       padding-bottom: 1.25rem;
       color: #fff;
@@ -196,29 +194,18 @@ header {
       color: #7f38f1; }
 
 #gallery .container {
-  box-shadow: 50px 0 100px #fff, -50px 0 100px #fff; }
-
-#gallery .overlay {
+  box-shadow: 50px 0 100px #fff, -50px 0 100px #fff;
   display: flex;
   position: relative;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  align-items: center;
-  height: 170vh;
+  align-items: flex-start;
   transition: all 1s ease-in-out; }
-  #gallery .overlay:hover {
+  #gallery .container:hover {
     transform: translate(605px) rotate3d(0, 1, 0.05, 1.57rad); }
-  #gallery .overlay:hover .gallery-content {
-    opacity: 1;
-    visibility: visible; }
-  #gallery .overlay h1 {
-    z-index: 2;
-    font-size: 16rem;
+  #gallery .container h1 {
     text-transform: uppercase; }
-  #gallery .overlay a {
-    z-index: 2;
-    color: #e4b67a; }
 
 #gallery .gallery-content {
   position: absolute;

@@ -49,9 +49,7 @@ header {
 
     .content {
       h1 {
-        font-size: 3.5rem;
         padding-bottom: 1.25rem;
-        color: $primary-color;
       }
 
       p {
@@ -182,37 +180,26 @@ header {
 #gallery {
   .container {
     box-shadow: 50px 0 100px #fff, -50px 0 100px #fff;
-  }
-
-  .overlay {
     display: flex;
     position: relative;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    align-items: center;
-    height: 170vh;
-    // box-shadow: inset 50px 0 300px #fff, inset -50px 0 300px #fff,
-    //   50px 0 300px #fff, -50px 0 300px #fff;
+    align-items: flex-start;
     transition: all 1s ease-in-out;
 
     &:hover {
       transform: translate(605px) rotate3d(0, 1, 0.05, 1.57rad);
     }
 
-    &:hover .gallery-content {
-      opacity: 1;
-      visibility: visible;
-    }
-
     h1 {
       text-transform: uppercase;
     }
 
-    a {
-      z-index: 2;
-      color: rgb(228, 182, 122);
-    }
+    // a {
+    //   z-index: 2;
+    //   color: rgb(228, 182, 122);
+    // }
   }
 
   .gallery-content {
