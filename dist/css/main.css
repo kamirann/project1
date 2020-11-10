@@ -114,7 +114,8 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
     header .hero .content h1 {
-      padding-bottom: 1.25rem; }
+      padding-bottom: 1.25rem;
+      color: #7f38f1; }
     header .hero .content p {
       padding-bottom: 1.25rem;
       color: #fff;
@@ -205,7 +206,8 @@ header {
   #gallery .container:hover {
     transform: translate(605px) rotate3d(0, 1, 0.05, 1.57rad); }
   #gallery .container h1 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    width: 50%; }
 
 #gallery .gallery-content {
   position: absolute;

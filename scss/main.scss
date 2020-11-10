@@ -50,6 +50,7 @@ header {
     .content {
       h1 {
         padding-bottom: 1.25rem;
+        color: $primary-color;
       }
 
       p {
@@ -194,6 +195,7 @@ header {
 
     h1 {
       text-transform: uppercase;
+      width: 50%;
     }
 
     // a {
