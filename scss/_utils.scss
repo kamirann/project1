@@ -1,4 +1,4 @@
-$primary-color: rgb(127, 56, 241);
+$primary-color: #d4995a;
 
 .current {
   border-bottom: $primary-color 2px solid;
@@ -24,8 +24,8 @@ li a:not(.current):hover {
     color: #333;
     background-color: transparent;
     &:hover {
-      border-color: $primary-color;
-      color: $primary-color;
+      background-color: $primary-color;
+      color: #fff;
     }
   }
 }
@@ -43,12 +43,14 @@ li a:not(.current):hover {
 .l-size {
   font-size: 3.5rem;
   padding-bottom: 1rem;
+  color: #ccc;
+  text-align: center;
 }
 
 .lead {
   font-size: 1.25rem;
   margin: 0 2rem;
-  color: #777;
+  color: #ccc;
 }
 
 .text-primary {
@@ -57,4 +59,9 @@ li a:not(.current):hover {
 
 .text-center {
   text-align: center;
+}
+
+.bg-medium {
+  background: rgb(116, 88, 40);
+  color: #fff;
 }
